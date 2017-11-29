@@ -17,7 +17,7 @@ xxx is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'xxx'
+pod  'xxx',:git=>'https://github.com/chengxuyuan1/xxx.git',:branch=>'master'
 ```
 
 ## Author
