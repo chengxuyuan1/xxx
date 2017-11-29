@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface test1 : NSObject
-
++(void)sayNo;
 @end

@@ -8,6 +8,7 @@
 
 #import "QGViewController.h"
 #import <xxx/QGPrint.h>
+#import <xxx/test1.h>
 @interface QGViewController ()
 
 @end
@@ -19,6 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [QGPrint printWithStr:@"test xxx  QGPrint success"];
+    [test1 sayNo];
 }
 
 - (void)didReceiveMemoryWarning
