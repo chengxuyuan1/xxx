@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'xxx/**/*'
+  s.source_files = 'xxx/**/*,xxx/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'xxx' => ['xxx/*']
+  #   'xxx' => ['xxx/*','xxx/Assets/*']
   # }
 
   # s.public_header_files = 'Pod/xxx/**/*'
